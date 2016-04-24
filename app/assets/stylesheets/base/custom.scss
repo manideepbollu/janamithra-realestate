@@ -1,0 +1,13 @@
+.img-border {
+  border: 1px solid #e7eaec;
+}
+
+.projects-border {
+  border: 1px solid #b34944;
+}
+
+@media (max-width: 1000px) {
+  .welcome-message {
+    display: none;
+  }
+}
