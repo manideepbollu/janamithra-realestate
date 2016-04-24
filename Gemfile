@@ -5,9 +5,6 @@ gem 'rails', '4.2.3'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'font-awesome-rails', '4.3.0.0'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.4'
 
@@ -29,6 +26,11 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :development do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
 end
 
 group :production do
